@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment } from 'E:/Code/env POC/angularFe/src/environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularFe';
+  constructor() {
+    console.log(environment.texttest); // Logs false for default environment
+  }
+
 }
