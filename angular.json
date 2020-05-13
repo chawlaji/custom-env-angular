@@ -57,11 +57,11 @@
                 }
               ]
             },
-            "develop": {
+            "staging": {
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.dev.ts"
+                  "with": "src/environments/environment.stage.ts"
                 }
               ]
             }
@@ -77,8 +77,8 @@
             "production": {
               "browserTarget": "angularFe:build:production"
             },
-            "develop": {
-              "browserTarget": "angularFe:build:develop"
+            "staging": {
+              "browserTarget": "angularFe:build:staging"
             }
           }
         },

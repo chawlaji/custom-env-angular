@@ -9,7 +9,7 @@ import { environment } from '../environments/environment';
 export class AppComponent {
   title = 'angularFe';
   constructor() {
-    console.log(environment.APIendpoint); // Logs false for default environment
+    console.log(environment.APIendpoint);
   }
 
 }
